@@ -6,7 +6,7 @@
 * Clone repository
 ```shell
 # ssh
-git clone https://github.com/SaD-Pr0gEr/django_basic_project.git
+git clone git@github.com:SaD-Pr0gEr/django_basic_project.git
 
 # or https
 git clone https://github.com/SaD-Pr0gEr/django_basic_project.git
