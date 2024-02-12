@@ -19,4 +19,4 @@ MIDDLEWARE += ['debug_toolbar.middleware.DebugToolbarMiddleware']
 
 INTERNAL_IPS = ['127.0.0.1']
 
-CSRF_TRUSTED_ORIGINS = ['*']
+CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1']
