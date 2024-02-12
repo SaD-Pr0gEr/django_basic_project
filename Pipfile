@@ -8,6 +8,7 @@ django = "*"
 django-jazzmin = "*"
 python-dotenv = "*"
 djangorestframework = "*"
+gunicorn = "*"
 
 [dev-packages]
 django-debug-toolbar = "*"
