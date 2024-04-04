@@ -14,13 +14,8 @@ git clone https://github.com/SaD-Pr0gEr/django_basic_project.git
 
 * Install dependencies & activate environment
 ```shell
-#prod
-pipenv install
-
-#dev
-pipenv install --dev
-
-pipenv shell
+poetry install
+poetry shell
 ```
 
 ## Install environment vars

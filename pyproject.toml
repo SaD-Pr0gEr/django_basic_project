@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "django-basic-project"
+version = "0.1.0"
+description = "Basic django project"
+authors = ["SaD-Pr0ger <sad.pr0ger@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^5.0.4"
+django-jazzmin = "^2.6.1"
+python-dotenv = "^1.0.1"
+djangorestframework = "^3.15.1"
+gunicorn = "^21.2.0"
+
+
+[tool.poetry.group.dev.dependencies]
+django-debug-toolbar = "^4.3.0"
+
+
+[tool.poetry.group.prod-unix.dependencies]
+psycopg2-binary = "^2.9.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
