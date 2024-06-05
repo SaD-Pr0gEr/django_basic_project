@@ -12,6 +12,8 @@ git clone git@github.com:SaD-Pr0gEr/django_basic_project.git
 git clone https://github.com/SaD-Pr0gEr/django_basic_project.git
 ```
 
+* Rename project name(and description[OPTIONAL]) in `pyproject.toml` to actual project name
+
 * Install dependencies & activate environment
 ```shell
 poetry install
