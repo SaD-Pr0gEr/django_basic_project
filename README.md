@@ -35,7 +35,7 @@ python manage.py runserver --settings=core.settings.dev
 # with prod settings manually
 python manage.py runserver --settings=core.settings.prod
 # or with gunicorn
-gunicorn core.wsgi:application --bind 127.0.0.1:8000
+gunicorn core.wsgi:application -c server/gunicorn.conf.py
 ```
 ## !!!WARNING!!!
 Don't use make run on production(use gunicorn/uvicorn etc.)
