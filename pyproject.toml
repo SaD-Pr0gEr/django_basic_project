@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "django-basic-project"
+name = "questions-api"
 version = "0.1.0"
-description = "Basic django project"
+description = "Questions app api"
 authors = ["SaD-Pr0ger <sad.pr0ger@gmail.com>"]
 readme = "README.md"
 
